@@ -32,7 +32,7 @@ namespace BlazorAppEstate
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello World Welcome to Mario E Wakeham!");
                 });
             });
         }
